@@ -87,7 +87,7 @@ export default async function MovieHomePage() {
           </div>
         </MovieSection>
 
-        <MovieSection sectionName="Popular on MOVIE DB">
+        <MovieSection sectionName="Popular on TMDB">
           <div
             id="popularMovies"
             className="flex space-x-4 overflow-x-auto pb-4"
