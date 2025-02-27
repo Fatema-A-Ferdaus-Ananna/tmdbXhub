@@ -63,7 +63,7 @@ export default function CompareSection({ popularMovie }) {
             />
           ))
         ) : (
-          <div className="flex">
+          <div className="min-h-[calc(100vh-340px)] flex">
             <p className="text-gray-400 text-center text-xl">
               There is nothing to compare. Add movies to compare... ദ്ദി(˵ •̀ ᴗ -
               ˵ )✧

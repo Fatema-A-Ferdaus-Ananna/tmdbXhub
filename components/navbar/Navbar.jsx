@@ -33,7 +33,7 @@ export default function Navbar() {
             </CustomLink>
 
             <CustomLink path="/watch-later" className="hover:text-gray-300">
-              Watch Later
+              Watch List
             </CustomLink>
           </div>
           <UserProfile />

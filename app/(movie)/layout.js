@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
 import "../globals.css";
 
@@ -12,6 +13,7 @@ export default function MovieLayout({ children }) {
     <>
       <Navbar />
       <div>{children}</div>
+      <Footer />
     </>
   );
 }

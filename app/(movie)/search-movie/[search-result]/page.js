@@ -25,7 +25,7 @@ export default async function SearchResultPage({
           </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="min-h-[calc(100vh-340px)] grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
           {Array.isArray(searchResults) &&
             searchResults.map((searchResult) => (
               <SearchResultCard
